@@ -10,9 +10,10 @@ import javax.persistence.Id;
 @Entity
 @Getter
 @Setter
-public class Staff extends AbstractEntity{
+public class AbstractEntity {
 
-    private String name;
+    @Id
+    @GeneratedValue
+    private Integer id;
 
-    private Integer age;
 }
