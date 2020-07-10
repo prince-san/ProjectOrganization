@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 @Entity
 @Getter
 @Setter
-public class Assistant extends Staff{
+public class StaffType extends AbstractEntity{
+
+    private String name;
 
 }

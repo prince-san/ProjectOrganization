@@ -5,9 +5,9 @@ import lombok.Setter;
 
 import javax.persistence.Entity;
 
-@Entity
 @Getter
 @Setter
+@Entity
 public class Engineer extends Leader{
-
+    
 }
